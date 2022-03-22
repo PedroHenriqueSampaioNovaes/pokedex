@@ -1,0 +1,95 @@
+.cartao-pokemon {
+  display: none;
+  border-radius: 10px;
+  box-shadow: 0 7px 29px 0 rgb(100, 100, 111, 20%);
+}
+
+.cartao-pokemon.aberto {
+  display: block;
+}
+
+/* Cartão-topo */
+.cartao-topo .detalhes {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #fff;
+}
+
+.cartao-topo .detalhes .nome {
+  margin-bottom: 5px;
+}
+
+.cartao-topo {
+  padding: 30px 40px 0;
+}
+
+/* Tipo do pokémon */
+.cartao-topo .tipo {
+  font-size: 12px;
+  background: #fff;
+  padding: 2px 10px;
+  border-radius: 10px;
+  opacity: .7;
+  box-shadow: 0 7px 29px 0 rgb(100, 100, 111, 20%);
+}
+
+.cartao-topo .img-pokemon {
+  width: 350px;
+  height: 350px;
+}
+
+/* Cartão infos */
+.cartao-infos {
+  background: #fff;
+  padding: 80px 30px 50px;
+  margin-top: -70px;
+  border-bottom-left-radius: 8px;
+  border-bottom-right-radius: 8px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.cartao-infos h3 {
+  font-size: 20px;
+  border-bottom: 1px solid #6B727A;
+  margin-bottom: 15px;
+}
+
+.cartao-infos .status, .cartao-infos .habilidades {
+  padding: 0 10px;
+  max-width: 180px;
+  width: 100%;
+}
+
+.cartao-infos .status ul li, .cartao-infos .habilidades ul li {
+  font-size: 15px;
+  padding: 0 0 5px;
+  margin-bottom: 5px;
+  border-bottom: 1px solid #C3C4C5;
+}
+
+/* Tipos de background pokémons */
+.tipo-eletrico, .listagem .pokemon.ativo#cabeca-pikachu {
+  background: #FCC719;
+}
+
+.tipo-grama, .listagem .pokemon.ativo#cabeca-bulbasaur {
+  background: #49D0B0;
+}
+
+.tipo-fogo, .listagem .pokemon.ativo#cabeca-charmander {
+  background: #ED8A8B;
+}
+
+.tipo-agua, .listagem .pokemon.ativo#cabeca-gyarados {
+  background: #76BEFE;
+}
+
+.tipo-fantasma, .listagem .pokemon.ativo#cabeca-gengar {
+  background: #BA68C8;
+}
+
+.tipo-dragao, .listagem .pokemon.ativo#cabeca-dragonite {
+  background: #C29791;
+}
